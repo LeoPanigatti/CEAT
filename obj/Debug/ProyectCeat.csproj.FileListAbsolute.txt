@@ -1,0 +1,12 @@
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\bin\Debug\ProyectCeat.exe.config
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\bin\Debug\ProyectCeat.exe
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\bin\Debug\ProyectCeat.pdb
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.csproj.AssemblyReference.cache
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.frmInscribirAlumno.resources
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.frmPrincipal.resources
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.Properties.Resources.resources
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.csproj.GenerateResource.cache
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.csproj.CoreCompileInputs.cache
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.exe
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.pdb
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.frmRA.resources

@@ -29,18 +29,20 @@
         private void InitializeComponent()
         {
             this.pnlBotonera = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.btbRA = new System.Windows.Forms.Button();
             this.btnInscripcion = new System.Windows.Forms.Button();
             this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.pnlBotonera.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBotonera
             // 
             this.pnlBotonera.BackColor = System.Drawing.Color.White;
+            this.pnlBotonera.Controls.Add(this.button4);
             this.pnlBotonera.Controls.Add(this.button1);
             this.pnlBotonera.Controls.Add(this.button3);
             this.pnlBotonera.Controls.Add(this.button2);
@@ -50,6 +52,17 @@
             this.pnlBotonera.Name = "pnlBotonera";
             this.pnlBotonera.Size = new System.Drawing.Size(200, 517);
             this.pnlBotonera.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(194, 52);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Consultas";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -72,17 +85,6 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Boton";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 52);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Consultas";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // btbRA
             // 
@@ -117,6 +119,17 @@
             this.pnlContenedor.Size = new System.Drawing.Size(801, 517);
             this.pnlContenedor.TabIndex = 2;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Location = new System.Drawing.Point(3, 288);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(194, 52);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Boton";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -144,6 +157,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
     }
 }
 

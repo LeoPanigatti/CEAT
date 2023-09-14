@@ -12,6 +12,8 @@ namespace ProyectCeat
 {
     public partial class frmPrincipal : Form
     {
+        public bool sesion { get; set; } = false; // creamos una propiedad de manera simplificada y le asignamos un valor por defecto.
+        
         public frmPrincipal()
         {
             InitializeComponent();
@@ -34,6 +36,25 @@ namespace ProyectCeat
         private void btbRA_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new frmRA(this));
+        }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new frmLogin(this));
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+        public void iniciarsesion()
+        {
+            if (sesion == true)
+            {
+                btnInscripcion.Enabled = true;
+                btbRA.Enabled = true;
+                btnConsultas.Enabled = true;
+            } 
         }
     }
 }

@@ -10,3 +10,4 @@ C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\D
 C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.exe
 C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.pdb
 C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.frmRA.resources
+C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\ProyectCeat\obj\Debug\ProyectCeat.frmLogin.resources

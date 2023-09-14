@@ -29,25 +29,19 @@
         private void InitializeComponent()
         {
             this.pnlBotonera = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnConsultas = new System.Windows.Forms.Button();
+            this.btnIniciar = new System.Windows.Forms.Button();
             this.btbRA = new System.Windows.Forms.Button();
             this.btnInscripcion = new System.Windows.Forms.Button();
             this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.pnlBotonera.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBotonera
             // 
             this.pnlBotonera.BackColor = System.Drawing.Color.White;
-            this.pnlBotonera.Controls.Add(this.button5);
-            this.pnlBotonera.Controls.Add(this.button4);
-            this.pnlBotonera.Controls.Add(this.button1);
-            this.pnlBotonera.Controls.Add(this.button3);
-            this.pnlBotonera.Controls.Add(this.button2);
+            this.pnlBotonera.Controls.Add(this.btnConsultas);
+            this.pnlBotonera.Controls.Add(this.btnIniciar);
             this.pnlBotonera.Controls.Add(this.btbRA);
             this.pnlBotonera.Controls.Add(this.btnInscripcion);
             this.pnlBotonera.Location = new System.Drawing.Point(0, 0);
@@ -55,42 +49,34 @@
             this.pnlBotonera.Size = new System.Drawing.Size(200, 517);
             this.pnlBotonera.TabIndex = 1;
             // 
-            // button1
+            // btnConsultas
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 52);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Consultas";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnConsultas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnConsultas.Enabled = false;
+            this.btnConsultas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConsultas.Location = new System.Drawing.Point(3, 3);
+            this.btnConsultas.Name = "btnConsultas";
+            this.btnConsultas.Size = new System.Drawing.Size(194, 52);
+            this.btnConsultas.TabIndex = 2;
+            this.btnConsultas.Text = "Consultas";
+            this.btnConsultas.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnIniciar
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(3, 230);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(194, 52);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Boton";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(3, 172);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 52);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Boton";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnIniciar.Location = new System.Drawing.Point(3, 172);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(194, 52);
+            this.btnIniciar.TabIndex = 3;
+            this.btnIniciar.Text = "Iniciar Sesión";
+            this.btnIniciar.UseVisualStyleBackColor = false;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
             // btbRA
             // 
             this.btbRA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btbRA.Enabled = false;
             this.btbRA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btbRA.Location = new System.Drawing.Point(3, 114);
             this.btbRA.Name = "btbRA";
@@ -103,6 +89,7 @@
             // btnInscripcion
             // 
             this.btnInscripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnInscripcion.Enabled = false;
             this.btnInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnInscripcion.Location = new System.Drawing.Point(3, 61);
             this.btnInscripcion.Name = "btnInscripcion";
@@ -121,28 +108,6 @@
             this.pnlContenedor.Size = new System.Drawing.Size(801, 517);
             this.pnlContenedor.TabIndex = 2;
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(3, 288);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(194, 52);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Boton";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Location = new System.Drawing.Point(3, 346);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(194, 52);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Boton";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -156,6 +121,7 @@
             this.MinimumSize = new System.Drawing.Size(1027, 567);
             this.Name = "frmPrincipal";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.pnlBotonera.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -167,11 +133,8 @@
         private System.Windows.Forms.Button btnInscripcion;
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Button btbRA;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnIniciar;
+        private System.Windows.Forms.Button btnConsultas;
     }
 }
 

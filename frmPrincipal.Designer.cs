@@ -54,7 +54,8 @@
             this.btnConsultas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnConsultas.Enabled = false;
             this.btnConsultas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnConsultas.Location = new System.Drawing.Point(3, 3);
+            this.btnConsultas.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultas.Location = new System.Drawing.Point(3, 61);
             this.btnConsultas.Name = "btnConsultas";
             this.btnConsultas.Size = new System.Drawing.Size(194, 52);
             this.btnConsultas.TabIndex = 2;
@@ -65,7 +66,8 @@
             // 
             this.btnIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnIniciar.Location = new System.Drawing.Point(3, 172);
+            this.btnIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciar.Location = new System.Drawing.Point(3, 3);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(194, 52);
             this.btnIniciar.TabIndex = 3;
@@ -78,11 +80,12 @@
             this.btbRA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btbRA.Enabled = false;
             this.btbRA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btbRA.Location = new System.Drawing.Point(3, 114);
+            this.btbRA.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btbRA.Location = new System.Drawing.Point(3, 172);
             this.btbRA.Name = "btbRA";
             this.btbRA.Size = new System.Drawing.Size(194, 52);
             this.btbRA.TabIndex = 1;
-            this.btbRA.Text = "Relevamiento Anual";
+            this.btbRA.Text = "R.A";
             this.btbRA.UseVisualStyleBackColor = false;
             this.btbRA.Click += new System.EventHandler(this.btbRA_Click);
             // 
@@ -91,7 +94,8 @@
             this.btnInscripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnInscripcion.Enabled = false;
             this.btnInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnInscripcion.Location = new System.Drawing.Point(3, 61);
+            this.btnInscripcion.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInscripcion.Location = new System.Drawing.Point(3, 119);
             this.btnInscripcion.Name = "btnInscripcion";
             this.btnInscripcion.Size = new System.Drawing.Size(194, 47);
             this.btnInscripcion.TabIndex = 0;

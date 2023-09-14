@@ -36,12 +36,14 @@
             this.btnInscripcion = new System.Windows.Forms.Button();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.pnlBotonera.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBotonera
             // 
             this.pnlBotonera.BackColor = System.Drawing.Color.White;
+            this.pnlBotonera.Controls.Add(this.button5);
             this.pnlBotonera.Controls.Add(this.button4);
             this.pnlBotonera.Controls.Add(this.button1);
             this.pnlBotonera.Controls.Add(this.button3);
@@ -130,6 +132,17 @@
             this.button4.Text = "Boton";
             this.button4.UseVisualStyleBackColor = false;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Location = new System.Drawing.Point(3, 346);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(194, 52);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Boton";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -158,6 +171,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 

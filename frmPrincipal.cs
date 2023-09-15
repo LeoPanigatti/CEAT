@@ -17,6 +17,7 @@ namespace ProyectCeat
         public frmPrincipal()
         {
             InitializeComponent();
+            
         }
 
         private void btnInscripcion_Click(object sender, EventArgs e)
@@ -45,7 +46,8 @@ namespace ProyectCeat
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-
+            pnlBotonera.BackColor = Color.FromArgb(3, 27, 58);
+            pnlContenedor.BackColor = Color.FromArgb(3, 27, 58);
         }
         public void iniciarsesion()
         {
@@ -55,6 +57,11 @@ namespace ProyectCeat
                 btbRA.Enabled = true;
                 btnConsultas.Enabled = true;
             } 
+        }
+        
+        private void pnlBotonera_Paint(object sender, PaintEventArgs e)
+        {
+           
         }
     }
 }

@@ -48,6 +48,7 @@
             this.pnlBotonera.Name = "pnlBotonera";
             this.pnlBotonera.Size = new System.Drawing.Size(200, 517);
             this.pnlBotonera.TabIndex = 1;
+            this.pnlBotonera.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBotonera_Paint);
             // 
             // btnConsultas
             // 

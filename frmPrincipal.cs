@@ -46,8 +46,7 @@ namespace ProyectCeat
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            pnlBotonera.BackColor = Color.FromArgb(3, 27, 58);
-            pnlContenedor.BackColor = Color.FromArgb(3, 27, 58);
+          
         }
         public void iniciarsesion()
         {

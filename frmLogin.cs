@@ -24,7 +24,7 @@ namespace ProyectCeat
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(3, 36, 79);
+            
 
         }
 

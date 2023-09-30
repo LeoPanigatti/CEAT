@@ -24,3 +24,16 @@ C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\CEAT\obj\Debug\Pr
 C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\CEAT\obj\Debug\ProyectCeat.csproj.CoreCompileInputs.cache
 C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\CEAT\obj\Debug\ProyectCeat.exe
 C:\Users\leopa\OneDrive\Documentos\Visual Studio 2010\Projects\CEAT\obj\Debug\ProyectCeat.pdb
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.frmLogin.resources
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.frmRA.resources
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.frmInscribirAlumno.resources
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.frmPrincipal.resources
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.Properties.Resources.resources
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.exe
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\obj\Debug\ProyectCeat.pdb
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\bin\Debug\ProyectCeat.exe.config
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\bin\Debug\ProyectCeat.exe
+C:\Users\Administrator\Desktop\CEAT-brian\CEAT\bin\Debug\ProyectCeat.pdb
